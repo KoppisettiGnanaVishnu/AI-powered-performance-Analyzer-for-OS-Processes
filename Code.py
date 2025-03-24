@@ -4,24 +4,19 @@ import time
 import os
 from datetime import datetime
 
-# Define threshold values
 CPU_THRESHOLD = 85  
 MEMORY_THRESHOLD = 90  
 DISK_THRESHOLD = 90  
-STARVATION_THRESHOLD = 30  # Process waiting for CPU for too long (in seconds)
+STARVATION_THRESHOLD = 30 
 
-# File name
 file_name = "system_advanced_monitoring_log.csv"
 
-# Delete existing log file if it exists
 if os.path.exists(file_name):
     os.remove(file_name)
     print(f"Deleted existing log file: {file_name}")
 
-# Initialize an empty list to store data
 data_log = []
 
-# Monitoring duration (in seconds) and interval
 monitor_duration = 60  
 interval = 2  
 
