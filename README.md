@@ -1,2 +1,2 @@
 # OS Performance Monitor
-It is a  AI-powered tool for real-time monitoring, analysis, and optimization of OS processes to enhance system performance and stability.
+It is a  tool for real-time monitoring, analysis, and optimization of OS processes to enhance system performance and detect bottlenecks and give optimization suggestions.
